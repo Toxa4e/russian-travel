@@ -7,8 +7,7 @@
 }
 @media screen and (max-width: 1184px) {
     .cover {
-        width:calc(1184px - (1184px - 100vw));
-        height: calc((1184px - (1184px - 100vw))/(1024/640));
+        height: calc(100vw/1.6);
     }
 }
 @media screen and (max-width: 1024px) {
