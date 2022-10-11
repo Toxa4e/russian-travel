@@ -1,15 +1,11 @@
 .cover {
+    box-sizing: border-box;
     position: relative;
     z-index: 2;
     margin: 92px auto;
     max-width: 1184px;
-    height: 740px;
 }
-@media screen and (max-width: 1184px) {
-    .cover {
-        height: calc(100vw/1.6);
-    }
-}
+
 @media screen and (max-width: 1024px) {
     .cover {
         margin: 90px auto 88px;
@@ -17,6 +13,12 @@
 }
 @media screen and (max-width: 320px) {
     .cover {
-        margin-bottom: 64px;
+        margin: 66px auto 64px;
     }
+}
+
+
+.cover:hover .cover__overlay {
+    background-color:#2A2C2F;
+    opacity: 0.8;
 }

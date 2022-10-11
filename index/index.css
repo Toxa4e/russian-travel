@@ -2,9 +2,6 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
 
-/*    БЛОК МИКС    */
-@import url('../blocks/link-decoration/link-decoration.css');
-
 /* Основная страница */
 @import url('../blocks/page/page.css');
 
@@ -13,6 +10,7 @@
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__links/header__links.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css'); /*одиночный модификатор активности*/
 
 /*  lead  */
 @import url('../blocks/lead/lead.css');
@@ -27,6 +25,7 @@
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__list/intro__list.css');
 @import url('../blocks/intro/__list-text/intro__list-text.css');
+@import url('../blocks/intro/__span-accent/intro__span-accent.css');
 
 /*   photo-grid   */
 @import url('../blocks/photo-grid/photo-grid.css');
