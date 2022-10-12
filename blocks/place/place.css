@@ -5,3 +5,9 @@
     flex-direction: column;
     gap: 48px;
 }
+
+@media screen and (max-width:720px) {
+    .place {
+        gap:32px;
+    }
+}
